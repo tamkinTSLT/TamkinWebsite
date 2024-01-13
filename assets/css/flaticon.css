@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticond41d.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff2") format("woff2"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.html#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("Flaticon.html#Flaticon") format("svg");
+  }
+}
+
+.fimanager::before {
+    display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    display: block;
+}
+
+[class*="flaticon-"]::before{
+  font-family: "Flaticon";
+}
+
+
+.flaticon-001-phone-call:before { content: "\f100"; }
+.flaticon-002-imac-computer:before { content: "\f101"; }
+.flaticon-003-instagram:before { content: "\f102"; }
+.flaticon-004-macintosh:before { content: "\f103"; }
+.flaticon-005-cloud-storage:before { content: "\f104"; }
+.flaticon-006-desktop-pc:before { content: "\f105"; }
+.flaticon-007-laptop:before { content: "\f106"; }
+.flaticon-008-iphone:before { content: "\f107"; }
+.flaticon-009-global-network:before { content: "\f108"; }
+.flaticon-010-iphone:before { content: "\f109"; }
+.flaticon-011-mobile-phone:before { content: "\f10a"; }
+.flaticon-012-laptop:before { content: "\f10b"; }
+.flaticon-013-video-call:before { content: "\f10c"; }
+.flaticon-014-imac:before { content: "\f10d"; }
+.flaticon-015-mobile-data:before { content: "\f10e"; }
+.flaticon-016-incoming-message:before { content: "\f10f"; }
+.flaticon-017-computer-mouse:before { content: "\f110"; }
+.flaticon-018-web-research:before { content: "\f111"; }
+.flaticon-019-satellite-signal:before { content: "\f112"; }
+.flaticon-020-mobile-data:before { content: "\f113"; }
+.flaticon-021-emoji:before { content: "\f114"; }
+.flaticon-022-open-laptop:before { content: "\f115"; }
+.flaticon-023-newspaper:before { content: "\f116"; }
+.flaticon-024-radio-tower:before { content: "\f117"; }
+.flaticon-025-good-feedback:before { content: "\f118"; }
+.flaticon-026-machine-repair:before { content: "\f119"; }
+.flaticon-027-email:before { content: "\f11a"; }
+.flaticon-028-online-security:before { content: "\f11b"; }
+.flaticon-029-mobile-phone:before { content: "\f11c"; }
+.flaticon-030-machine-repair:before { content: "\f11d"; }

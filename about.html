@@ -1,0 +1,905 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+   
+<head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>Tamkeen</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
+
+      <!-- CSS here -->
+      <link rel="stylesheet" href="assets/css/bootstrap.css">
+      <link rel="stylesheet" href="assets/css/animate.css">
+      <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+      <link rel="stylesheet" href="assets/css/slick.css">
+      <link rel="stylesheet" href="assets/css/magnific-popup.css">
+      <link rel="stylesheet" href="assets/css/font-awesome-pro.css"> 
+      <link rel="stylesheet" href="assets/css/flaticon.css">
+      <link rel="stylesheet" href="assets/css/spacing.css">
+      <link rel="stylesheet" href="assets/css/main.css">
+      <link rel="stylesheet" href="assets/css/responsive.css">
+      <!-- <link rel="stylesheet" href="assets/css/rtl.css"> -->
+
+
+   </head>
+   <body class='light-mode'>
+   
+
+
+      <!-- pre loader area start -->
+      <div id="loading">
+         <div id="loading-center">
+            <div id="loading-center-absolute">
+               <div class="object" id="object_one"></div>
+               <div class="object" id="object_two"></div>
+               <div class="object" id="object_three"></div>
+            </div>
+         </div>  
+      </div>
+      <!-- pre loader area end -->
+
+
+
+      <!-- offcanvas area start -->
+      <div class="offcanvas__area">
+         <div class="offcanvas__wrapper">
+            <div class="offcanvas__close">
+               <button class="offcanvas__close-btn offcanvas-close-btn">
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M11 1L1 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                     <path d="M1 1L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+               </button>
+            </div>
+            <div class="offcanvas__content">
+               <div class="offcanvas__top mb-50 d-flex justify-content-between align-items-center">
+                  <div class="offcanvas__logo logo">
+                     <a href="#">
+                        LOGO
+                     </a>
+                  </div>
+               </div>
+               <div class="tp-main-menu-mobile fix d-xl-none mb-40"></div>
+               
+               <div class="offcanvas__contact">
+                  <h4 class="offcanvas__title">Accessibility [4]</h4>
+                 
+                  <div class="tp-header-top-info">
+                     <ul class="d-flex">
+                        <li class="icons-font">
+                           <span class="plus" id="increase-font">
+                              <img src="assets/img/plus.png">
+                           </span>
+                           <span class="line">
+                            <img src="assets/img/line.png">
+                           </span>
+                           <span class="minus" id="decrease-font">
+                            <img src="assets/img/minus.png">
+                         </span>
+                         </li>
+                       
+                     </ul>
+                  </div>
+               </div>
+               <div class="offcanvas__social">
+                  <a class="icon facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a class="icon twitter" href="#"><i class="fab fa-twitter"></i></a>
+                  <a class="icon youtube" href="#"><i class="fab fa-youtube"></i></a>
+                  <a class="icon linkedin" href="#"><i class="fab fa-linkedin"></i></a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="body-overlay"></div>
+      <!-- offcanvas area end -->
+
+
+      <!-- header area start -->
+      <header  class="tp-header-area tp-header-transparent tp-header-height">
+         <div class="tp-header-top d-none d-xl-block">
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-xxl-6 col-xl-8">
+                     <div class="tp-header-top-info">
+                        <ul class="d-flex">
+                           <li>
+                              <a><span>Accessibility [4]</a>
+                           </li>
+                           <li class="icons-font">
+                             <span class="plus">
+                                <img src="assets/img/plus.png">
+                             </span>
+                             <span class="line">
+                              <img src="assets/img/line.png">
+                             </span>
+                             <span class="minus">
+                              <img src="assets/img/minus.png">
+                           </span>
+                           </li>
+                          
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-xxl-6 col-xl-4">
+                     <div class="tp-header-top-right d-flex justify-content-end align-items-center">
+                        <div class="switch-mode">
+                           <input type='checkbox' id="toggle"/>
+                        </div>
+                        <div class="header-social d-xxl-block d-none">
+                           <a href="#">
+                              <img src="assets/img/facebook.png">
+                           </a>
+                           <a href="#">
+                              <img src="assets/img/twitter.png">
+                           </a>
+                           <a href="#">
+                              <img src="assets/img/youtube.png">
+                           </a>
+                           <a href="#">
+                              <img src="assets/img/linkedin.png">
+                           </a>
+                           <a href="#">
+                              <img src="assets/img/instagram.png">
+                           </a>
+                        </div>
+                        <div class="dropdown">
+                           <button class="btn-language dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="assets/img/lang.png">   EN
+                           </button>
+                           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                             <li><a class="dropdown-item" href="#">
+                                <img src="assets/img/002-egypt.png">العربية
+                             </a></li>
+                             <li><a class="dropdown-item" href="#">
+                              <img src="assets/img/001-united-kingdom.png">English
+                             </a></li>
+                           </ul>
+                         </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="header-sticky" class="tp-header-bottom header__sticky p-relative">
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-lg-6 d-flex justify-content-between">
+                     <div class="tp-header-main-left p-relative">
+                        <div class="tp-header-logo">
+                           <a href="#">
+                              Logo
+                           </a>
+                        </div>
+                     </div>
+                     <div class="tp-header-hamburger-btn d-xl-none offcanvas-open-btn">
+                        <button class="hamburger-btn">
+                           <span>
+                              <svg width="29" height="24" viewBox="0 0 29 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M0 1.13163C0 0.506972 0.499692 0 1.11538 0H20.4487C21.0644 0 21.5641 0.506972 21.5641 1.13163C21.5641 1.7563 21.0644 2.26327 20.4487 2.26327H1.11538C0.499692 2.26327 0 1.7563 0 1.13163ZM27.8846 10.5619H1.11538C0.499692 10.5619 0 11.0689 0 11.6935C0 12.3182 0.499692 12.8252 1.11538 12.8252H27.8846C28.5003 12.8252 29 12.3182 29 11.6935C29 11.0689 28.5003 10.5619 27.8846 10.5619ZM14.5 21.1238H1.11538C0.499692 21.1238 0 21.6308 0 22.2555C0 22.8801 0.499692 23.3871 1.11538 23.3871H14.5C15.1157 23.3871 15.6154 22.8801 15.6154 22.2555C15.6154 21.6308 15.1157 21.1238 14.5 21.1238Z" fill="currentColor"/>
+                              </svg>
+                           </span>
+                        </button>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-6 d-none d-xl-block">
+                     <div class="tp-main-menu-area">
+                        <div class="tp-main-menu">
+                           <nav class="tp-main-menu-content">
+                              <ul>
+                                 <li>
+                                    <a href="#">Home</a>
+                                 </li>
+                                 <li>
+                                    <a href="#">PlugIn</a>
+                                 </li>
+                                 <li>
+                                    <a href="#">App</a>
+                                 </li>
+                                 <li>
+                                    <a href="#">Tamkeen</a>
+                                 </li>
+                                 <li class="active"><a href="#">About Us</a></li>
+                                 <li><a href="#">Blog</a></li>
+                                
+                                 
+                              </ul>
+                           </nav>
+                        </div>
+                     </div>
+                  </div>
+                 
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- header area end -->
+
+
+      <main>
+        
+
+         <!-- hero area start -->
+         <section class="bg d-flex align-items-center tp-inner-area" data-background="assets/img/bg-hero-about.png">
+            
+            <div class="container p-relative">
+               <img src="assets/img/shape-top.png" class="hero-about-shape">
+               <div class="row align-items-center">
+                  <div class="col-lg-6 col-md-8">
+                     <div class="tp-hero-content wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                       
+                        <div class="tp-hero-title-wrapper mb-30">
+                           <h2 class="tp-hero-title">
+                            Discover the Largest Sign <br>
+                        <span class="text-gradient text-gradient2">  Language translation </span>  Platform <br> in the world
+                           </h2>
+                        </div>
+                     <p class="text-dark mb-0">
+                        Tamkeen aims to take advantage of intelligence technology
+                        To bridge the gap between deaf and hearing by
+                        Providing Sign Language interpretation services for companies
+                        Major and global applications
+                     </p>
+                   
+                     
+                     </div>
+                  </div>
+                  <div class="col-lg-6 col-md-4 d-flex justify-content-end">
+                     <div class="tp-hero-thumb-about p-relative wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                        <img src="assets/img/charcter with elements.png">
+                       
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- hero area end -->
+    
+
+         <section  class="pt-50 p-relative pb-50 bg" data-background="assets/img/bg11.png">
+          
+            <div class="container">
+               <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                     <div class="tp-service-title-wrapper text-center">
+                        <span class="tp-section-title-pre">Why Choose</span>
+                        <h3 class="tp-section-title">Tamken</h3>
+                        <p class="tp-section-des">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue ipsum sed luctus interdum. Vestibulum est neque, tempus nec tincidunt ut, pellentesque eu nisi. Fusce .
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-6 col-lg-6">
+                     <div class="tp-choose-wrapper mb-30 text-center">
+                        <div class="icon justify-content-center justify-content-center">
+                           <img src="assets/img/Donations 1.png">
+                        </div>
+                        <h3 class="font-24">People with disabilities income</h3>
+                        <p class="font-16">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue ipsum sed luctus interdum. Vestibulum est neque, tempus nec tincidunt ut, pellentesque eu nisi. Fusce accumsan felis odio, non sagittis lorem efficitur at. Quisque cursus sit amet erat quis tempus. Donec laoreet pretium leo sit amet .
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-lg-6">
+                     <div class="tp-choose-wrapper mb-30 text-center">
+                        <div class="icon justify-content-center">
+                           <img src="assets/img/law.png">
+                        </div>
+                        <h3 class="font-24">Web accessibility is required by law</h3>
+                        <p class="font-16"> 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue ipsum sed luctus interdum. Vestibulum est neque, tempus nec tincidunt ut, pellentesque eu nisi. Fusce accumsan felis odio, non sagittis lorem efficitur at. Quisque cursus sit amet erat quis tempus. Donec laoreet pretium leo sit amet .
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-lg-6">
+                     <div class="tp-choose-wrapper mb-30 text-center">
+                        <div class="icon justify-content-center">
+                           <img src="assets/img/Care.png">
+                        </div>
+                        <h3 class="font-24">Companies support social or environmental issues. </h3>
+                        <p class="font-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue ipsum sed luctus interdum. Vestibulum est neque, tempus nec tincidunt ut, pellentesque eu nisi. Fusce accumsan felis odio, non sagittis lorem efficitur at. Quisque cursus sit amet erat quis tempus. Donec laoreet pretium leo sit amet . </p>
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-lg-6">
+                     <div class="tp-choose-wrapper mb-30 text-center">
+                        <div class="icon justify-content-center">
+                           <img src="assets/img/Estimated Profit.png">
+                        </div>
+                        <h3 class="font-24">Companies higher profit margins</h3>
+                        <p class="font-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue ipsum sed luctus interdum. Vestibulum est neque, tempus nec tincidunt ut, pellentesque eu nisi. Fusce accumsan felis odio, non sagittis lorem efficitur at. Quisque cursus sit amet erat quis tempus. Donec laoreet pretium leo sit amet .</p>
+                     </div>
+                  </div>
+       
+
+
+               </div>
+
+            </div>
+         </section>
+
+         <section  class="pt-40 p-relative pb-40 bg" data-background="assets/img/bg4.png">
+          
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-12">
+                     <div class="card-test">
+                         <div class="row">
+                             <div class="col-md-6">
+                                 <div class="card-test-profile">
+                                     <div class="profile-content">
+                                         <img src="assets/img/Ellipse 12.png">
+                                         <div class="">
+                                             <h4>Leslie Dell</h4>
+                                             <small>CEO of Tamken</small>
+                                         </div>
+                                     </div>
+                                     <p>
+                                        Lorem ipsum dolor sit amet consectetur. Pretium vitae id est commodo imperdiet euismod id. Tortor cursus lacus platea commodo arcu. Nulla et egestas in varius. Et ornare viverra sagittis diam bibendum lorem sit. Tristique vel lacus euismod tincidunt 
+                                     </p>
+                                 </div>
+                                 
+                             </div>
+                             <div class="col-md-6">
+                                 <div class="card-test-content">
+                                     <h3>We connect people through digital accessibility</h3>
+                                     <p>
+                                        Lorem ipsum dolor sit amet consectetur. Pretium vitae id est commodo imperdiet euismod id. Tortor cursus lacus platea commodo arcu. Nulla 
+                                     </p>
+                                     <div class="tp-about-btn">
+                                        <a class="tp-btn" href="">Download our press kit <span><i class="fa-regular fa-arrow-right"></i></span></a>
+                                     </div>
+                                 </div>
+                                 
+                            </div>
+                         </div>
+
+                     </div>
+
+                  </div>
+               </div>
+            
+
+            </div>
+         </section>
+
+         <section  class="pt-100 pb-100 bg" data-background="assets/img/bg19.png">
+            <div class="container">
+               <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                     <div class="tp-service-title-wrapper text-center">
+                        <h3 class="tp-section-title text-main">Timeline</h3>
+                     </div>
+                  </div>
+               </div>
+               <div class="row justify-content-center">
+                  <div class="col-md-12">
+
+                     <div class="tp-timeline swiper-container">
+                        <div class="swiper-wrapper">
+                           <div class="swiper-slide">
+                              <div class="timeline-content">
+                                 <div class="thumb">
+                                    <p>Image</p>
+                                 </div>
+                                 <div class="content">
+                                    <h3 class="text-gradient">Aug 2015</h3>
+                                    <p>
+                                       Lorem ipsum dolor sit amet consectetur. Pretium vitae id est commodo imperdiet euismod id. Tortor cursus lacus platea commodo arcu. Nulla et egestas in varius. Et ornare viverra sagittis diam bibendum lorem sit. Tristique vel lacus euismod
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="timeline-content">
+                                 <div class="thumb">
+                                    <p>Image</p>
+                                 </div>
+                                 <div class="content">
+                                    <h3 class="text-gradient">Aug 2015</h3>
+                                    <p>
+                                       Lorem ipsum dolor sit amet consectetur. Pretium vitae id est commodo imperdiet euismod id. Tortor cursus lacus platea commodo arcu. Nulla et egestas in varius. Et ornare viverra sagittis diam bibendum lorem sit. Tristique vel lacus euismod
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="timeline-content">
+                                 <div class="thumb">
+                                    <p>Image</p>
+                                 </div>
+                                 <div class="content">
+                                    <h3 class="text-gradient">Aug 2015</h3>
+                                    <p>
+                                       Lorem ipsum dolor sit amet consectetur. Pretium vitae id est commodo imperdiet euismod id. Tortor cursus lacus platea commodo arcu. Nulla et egestas in varius. Et ornare viverra sagittis diam bibendum lorem sit. Tristique vel lacus euismod
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="timeline-content">
+                                 <div class="thumb">
+                                    <p>Image</p>
+                                 </div>
+                                 <div class="content">
+                                    <h3 class="text-gradient">Aug 2015</h3>
+                                    <p>
+                                       Lorem ipsum dolor sit amet consectetur. Pretium vitae id est commodo imperdiet euismod id. Tortor cursus lacus platea commodo arcu. Nulla et egestas in varius. Et ornare viverra sagittis diam bibendum lorem sit. Tristique vel lacus euismod
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     
+
+                  </div>
+               </div>
+               
+               <div class="row position-relative mt-40">
+                  <div class="col-lg-12 d-flex justify-content-center">
+                     <div class="tp-timeline-nav">
+                        <button type="button" class="blog-button-prev-1"><i class="fa-regular fa-arrow-left-long"></i> Previous
+                        </button>
+                        <button type="button" class="blog-button-next-1">Next<i class="fa-regular fa-arrow-right-long"></i>
+                        </button>
+                     </div>
+                     <div class="swiper-pagination swiper-pagination-timeline"></div>
+                      
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="p-relative pt-70 pb-70 bg" data-background="assets/img/bg6.png">
+          
+            <div class="container">
+               <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                     <div class="tp-service-title-wrapper text-center">
+                        <h3 class="tp-section-title text-main">How can we help?</h3>
+                        <p class="tp-section-des">
+                           Accessibility remains a major challenge for people with disabilities, as Less than 1% of websites and apps are designed worldwide Currently to be fully accessible to them.
+                       </p>
+                     </div>
+                  </div>
+               </div>
+              <div class="row justify-content-center">
+               <div class="col-md-10">
+               
+                  <div class="tp-video wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">
+                     <div class="background-image"></div>
+                     <div class="play-icon"></div>
+                     <div class="video-overlay"></div>
+                     <iframe class="video-player" src="" frameborder="0" allowfullscreen></iframe>
+                   </div>
+                 
+               </div>
+              </div>
+
+            </div>
+         </section>
+
+
+      
+
+         <section class="tp-counter-area bg">
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-lg-4 col-md-4">
+                    <div class="counter-item">
+                     <h4>+</h4>
+                     <div class="d-flex flex-column align-items-center justify-content-center">
+                        <h4> 4 million</h4>
+                        <small>download</small>
+                     </div>
+                    
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4">
+                     <div class="counter-item">
+                        <div class="d-flex flex-column align-items-center justify-content-center">
+                           <h4>+ 4,4</h4>
+                           <ul class="rating">
+                              <li>
+                                 <i class="fa fa-star"></i>
+                              </li>
+                              <li>
+                                 <i class="fa fa-star"></i>
+                              </li>
+                              <li>
+                                 <i class="fa fa-star"></i>
+                              </li>
+                              <li>
+                                 <i class="fa fa-star"></i>
+                              </li>
+                              <li>
+                                 <i class="fa fa-star-half-alt"></i>
+                              </li>
+                            </ul>
+                            <small>Average rating from users</small>
+                        </div>
+                       
+                       </div>
+                   </div>
+                   <div class="col-lg-4 col-md-4">
+                     <div class="counter-item">
+                        <h4>+</h4>
+                        <div class="d-flex flex-column align-items-center justify-content-center">
+                           <h4> 700.000.000</h4>
+                            <small>Words translated by Hugo and Maya</small>
+                        </div>
+                       
+                       </div>
+                   </div>
+                 
+               </div>
+            </div>
+
+         </section>
+
+         <section class="pt-80 pb-80">
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-md-5">
+                     <h3 class="title-founders">Meet Our Founders</h3>
+                        <p class="des-founders">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                        </p>
+                        <p class="des-founders mb-0"> 
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                        </p>
+                        
+                  </div>
+                  <div class="col-md-7">
+                     <div class="tp-founders-active swiper-container">
+                        <div class="swiper-wrapper">
+                           <div class="swiper-slide">
+                               <div class="tp-founder-card">
+                                  <div class="founder-details">
+                                     <img src="assets/img/Ellipse 12.png">
+                                     <div class="">
+                                        <h4>Leslie Dell</h4>
+                                        <small>CEO of Tamken</small>
+                                        <ul class="social-icons">
+                                           <li>
+                                              <a href="#">
+                                                 <i class="fab fa-linkedin"></i>
+                                              </a>
+                                           </li>
+                                           <li>
+                                             <a href="#">
+                                                <i class="fab fa-facebook"></i>
+                                             </a>
+                                          </li>
+                                          <li>
+                                             <a href="#">
+                                                <i class="fab fa-twitter"></i>
+                                             </a>
+                                          </li>
+                                        </ul>
+                                     </div>
+                                  </div>
+                                  <p class="founder-des">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue ipsum sed luctus interdum. Vestibulum est neque, tempus nec tincidunt ut, pellentesque eu nisi. Fusce accumsan felis odio, non sagittis lorem efficitur at. Quisque cursus sit amet erat quis tempus. Donec laoreet pretium leo sit amet feugiat Suspendisse egestas .
+                                    tempus nec tincidunt ut, pellentesque eu nisi. Fusce accumsan felis odio, non sagittis 
+                                  </p>
+
+                               </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="tp-founder-card">
+                                 <div class="founder-details">
+                                    <img src="assets/img/Ellipse 12.png">
+                                    <div class="">
+                                       <h4>Leslie Dell</h4>
+                                       <small>CEO of Tamken</small>
+                                       <ul class="social-icons">
+                                          <li>
+                                             <a href="#">
+                                                <i class="fab fa-linkedin"></i>
+                                             </a>
+                                          </li>
+                                          <li>
+                                            <a href="#">
+                                               <i class="fab fa-facebook"></i>
+                                            </a>
+                                         </li>
+                                         <li>
+                                            <a href="#">
+                                               <i class="fab fa-twitter"></i>
+                                            </a>
+                                         </li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                                 <p class="founder-des">
+                                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue ipsum sed luctus interdum. Vestibulum est neque, tempus nec tincidunt ut, pellentesque eu nisi. Fusce accumsan felis odio, non sagittis lorem efficitur at. Quisque cursus sit amet erat quis tempus. Donec laoreet pretium leo sit amet feugiat Suspendisse egestas .
+                                   tempus nec tincidunt ut, pellentesque eu nisi. Fusce accumsan felis odio, non sagittis 
+                                 </p>
+
+                              </div>
+                          </div>
+                          <div class="swiper-slide">
+                           <div class="tp-founder-card">
+                              <div class="founder-details">
+                                 <img src="assets/img/Ellipse 12.png">
+                                 <div class="">
+                                    <h4>Leslie Dell</h4>
+                                    <small>CEO of Tamken</small>
+                                    <ul class="social-icons">
+                                       <li>
+                                          <a href="#">
+                                             <i class="fab fa-linkedin"></i>
+                                          </a>
+                                       </li>
+                                       <li>
+                                         <a href="#">
+                                            <i class="fab fa-facebook"></i>
+                                         </a>
+                                      </li>
+                                      <li>
+                                         <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                         </a>
+                                      </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                              <p class="founder-des">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue ipsum sed luctus interdum. Vestibulum est neque, tempus nec tincidunt ut, pellentesque eu nisi. Fusce accumsan felis odio, non sagittis lorem efficitur at. Quisque cursus sit amet erat quis tempus. Donec laoreet pretium leo sit amet feugiat Suspendisse egestas .
+                                tempus nec tincidunt ut, pellentesque eu nisi. Fusce accumsan felis odio, non sagittis 
+                              </p>
+
+                           </div>
+                       </div>
+                          
+                         
+
+                        </div>
+                     </div>
+                     
+                  </div>
+               </div>
+            </div>
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-12">
+                     <div class="tp-blog-2-nav text-end">
+                        <button type="button" class="founders-button-prev-1"><i class="fa-regular fa-arrow-left-long"></i>
+                        </button>
+                        <button type="button" class="founders-button-next-1"><i class="fa-regular fa-arrow-right-long"></i>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </section>
+
+
+         <section class="bg p-relative pt-50 pb-50" data-background="assets/img/bg8.png">
+          
+            <div class="container">
+               <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                     <div class="tp-service-title-wrapper text-center">
+                        <h3 class="tp-section-title text-main">Awards</h3>
+                        <p class="tp-section-des">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue ipsum sed luctus interdum. Vestibulum est neque, tempus nec tincidunt ut, pellentesque eu nisi. Fusce .
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="tp-slider-3-active swiper-container">
+                        <div class="swiper-wrapper">
+                           <div class="swiper-slide">
+                              <div class="tp-gopgle-card text-center text-center">
+                                 <div class="icon">
+                                    <img width="173" height="87" src="assets/img/logo2.png">
+                                 </div>
+                                 <h3>Award Name</h3>
+                                 <p> 
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue ipsum sed luctus interdum. Vestibulum est neque, tempus nec tincidunt ut, pellentesque eu nisi. Fusce accumsan felis odio, non sagittis lorem efficitur at. Quisque cursus sit amet erat quis 
+                                 </p>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="tp-gopgle-card text-center">
+                                 <div class="icon">
+                                    <img width="209" height="84" src="assets/img/logo3.png">
+                                 </div>
+                                 <h3>Award Name</h3>
+                                 <p> 
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue ipsum sed luctus interdum. Vestibulum est neque, tempus nec tincidunt ut, pellentesque eu nisi. Fusce accumsan felis odio, non sagittis lorem efficitur at. Quisque cursus sit amet erat quis 
+                                 </p>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="tp-gopgle-card text-center">
+                                 <div class="icon">
+                                    <img width="173" height="87" src="assets/img/logo4.png">
+                                 </div>
+                                 <h3>Award Name</h3>
+                                 <p> 
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue ipsum sed luctus interdum. Vestibulum est neque, tempus nec tincidunt ut, pellentesque eu nisi. Fusce accumsan felis odio, non sagittis lorem efficitur at. Quisque cursus sit amet erat quis 
+                                 </p>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="tp-gopgle-card text-center">
+                                 <div class="icon">
+                                    <img width="209" height="84" src="assets/img/logo3.png">
+                                 </div>
+                                 <h3>Award Name</h3>
+                                 <p> 
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue ipsum sed luctus interdum. Vestibulum est neque, tempus nec tincidunt ut, pellentesque eu nisi. Fusce accumsan felis odio, non sagittis lorem efficitur at. Quisque cursus sit amet erat quis 
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-12">
+                     <div class="tp-blog-2-nav text-end">
+                        <button type="button" class="awards-button-prev-1"><i class="fa-regular fa-arrow-left-long"></i>
+                        </button>
+                        <button type="button" class="awards-button-next-1"><i class="fa-regular fa-arrow-right-long"></i>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            
+
+            </div>
+         </section>
+      
+
+     
+      </main>
+      
+
+      <div class="pt-30 pb-30">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 d-flex justify-content-end">
+                  <button id="back_to_top" type="button" class="back-to-top-btn">
+                     <span>
+                        <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M6.99951 -0.000473328C6.76067 0.00635308 6.61671 0.0867841 6.51342 0.189745L0.291466 5.84191C-0.0451994 6.10889 -0.0984761 6.71391 0.174904 7.09216C0.448284 7.47041 0.959445 7.4905 1.26364 7.18702L6.22177 2.68974L6.22177 16.4995C6.22177 16.9798 6.56997 17.3691 6.99951 17.3691C7.42906 17.3691 7.77726 16.9798 7.77726 16.4995L7.77726 2.68974L12.7354 7.18702C13.0426 7.53126 13.5815 7.43343 13.8706 7.07007C14.0931 6.79034 14.0222 6.04487 13.7075 5.84191L7.4856 0.189745C7.32445 0.0425488 7.2046 -0.00226434 6.99951 -0.000473328Z" fill="#787A78"/>
+                           </svg>                           
+                     </span>
+                     To the top            
+                  </button>
+               </div>
+            </div>
+         </div>
+      </div>
+      
+      
+         <!-- footer area start -->
+         <footer class="tp-footer-area p-relative">
+            <div class="tp-footer-main-area">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="tp-footer-widget tp-footer-col-1">
+                           <div class="tp-footer-logo mb-20">
+                           <a href="index-2.html"> Logo</a>
+                           </div>
+                           <div class="tp-footer-widget-content">
+                              <p>
+                                 Our website to fulfill customer demand by making them satisfied with growing their Knowledge.
+                              </p>
+                             
+                              <div class="tp-footer-widget-social">
+                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                 <a href="#"><i class="fab fa-twitter"></i></a>
+                                 <a href="#"><i class="fab fa-youtube"></i></a>
+                                 <a href="#"><i class="fab fa-linkedin"></i></a>
+                                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  
+                     <div class="col-xl-2 col-lg-3 col-md-6">
+                        <div class="tp-footer-widget tp-footer-col-3">
+                           <h3 class="tp-footer-widget-title">Home</h3>
+                           <div class="tp-footer-widget-content">
+                              <ul>
+                                 <li><a href="#">About Us</a></li>
+                                 <li><a href="#">Contact Us</a></li>
+                                 <li><a href="#">Blog</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-2 col-lg-3 col-md-6">
+                        <div class="tp-footer-widget tp-footer-col-3">
+                           <h3 class="tp-footer-widget-title">Solution</h3>
+                           <div class="tp-footer-widget-content">
+                              <ul>
+                                 <li><a href="#">App</a></li>
+                                 <li><a href="#">PlugIn</a></li>
+                                 <li><a href="#">Tamkeen</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-2 col-lg-3 col-md-6">
+                        <div class="tp-footer-widget tp-footer-col-3">
+                           <h3 class="tp-footer-widget-title">Support</h3>
+                           <div class="tp-footer-widget-content">
+                              <ul>
+                                 <li><a href="#">Privacy policy</a></li>
+                                 <li><a href="#">Tearms & Conditions</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-xl-3 col-lg-5 col-md-6">
+                        <div class="tp-footer-widget tp-footer-col-4 tp-footer-download">
+                           <a href="#">
+                              <img src="assets/img/google.png">
+                           </a>
+                           <a href="#">
+                              <img src="assets/img/app.png">
+                           </a>
+                           <a href="#">
+                              <img src="assets/img/huawi.png">
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="tp-footer-copyright-area">
+                           <div class="tp-footer-copyright-inner">
+                              <p>Copyright © 2023 Tamkeen®</p>
+                           </div>
+                        </div>
+                        
+                     </div>
+                   
+                  </div>
+               </div>
+            </div>
+          
+         </footer>
+         <!-- footer area end -->
+
+
+      <!-- JS here -->
+      <script src="assets/js/vendor/jquery.js"></script>
+      <script src="assets/js/vendor/waypoints.js"></script>
+      <script src="assets/js/bootstrap-bundle.js"></script>
+      <script src="assets/js/meanmenu.js"></script>
+      <script src="assets/js/swiper-bundle.js"></script>
+      <script src="assets/js/slick.js"></script>
+      <script src="assets/js/range-slider.js"></script>
+      <script src="assets/js/magnific-popup.js"></script>
+      <script src="assets/js/nice-select.js"></script>
+      <script src="assets/js/purecounter.js"></script>
+      <script src="assets/js/countdown.js"></script>
+      <script src="assets/js/wow.js"></script>
+      <script src="assets/js/isotope-pkgd.js"></script>
+      <script src="assets/js/imagesloaded-pkgd.js"></script>
+      <script src="assets/js/main.js"></script>
+      <script src="assets/js/horizontal_timeline.js"></script>
+
+
+
+   
+
+   </body>
+
+</html>
+

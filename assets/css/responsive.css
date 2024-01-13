@@ -1,0 +1,213 @@
+@media(max-width:424px){
+  .tp-talk-card{
+    width: 100%;
+  }
+}
+@media(max-width:767px){
+  .tp-service-title-wrapper .tp-section-title{
+    margin-bottom: 10px !important;
+  }
+  .tp-hero-download {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.app-screen-work .circle-shape{
+  height: 300px;
+  width: 300px;
+}
+.counter-item {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.tp-footer-widget-title{
+  margin-bottom: 10px;
+}
+.tp-footer-widget{
+  margin-bottom: 1.5rem;
+}
+}
+@media (min-width:768px) and (max-width:991px){
+  .card-test .card-test-profile .profile-content{
+    margin-bottom: 1em;
+  }
+  .tp-hero-shape #scroll-down{
+    right: 50%;
+    width: 80px;
+    bottom: 0;
+    height: 80px;
+  }
+  .tp-choose-wrapper{
+    margin-bottom: 1em;
+  }
+  .hello-img {
+    width: 196.47px;
+    height: 146.9px;
+}
+  .card-subscripe .text-input-group {
+    width: 48%;
+  }
+  .tp-footer-widget img{
+    width: auto;
+    height: 30px;
+  }
+  .card-subscripe .subscripe-field{
+    flex-wrap: wrap;
+  }
+  .card-subscripe .subscripe-field .tp-btn{
+    width: 100%;
+  }
+  .tp-timeline-nav button{
+    font-size: 15px;
+    gap: 5px;
+  }
+  .swiper-pagination-timeline .swiper-pagination-bullet{
+    font-size: 17px;
+  }
+  .swiper-pagination-timeline .swiper-pagination-bullet::before{
+    width: 16px;
+    height: 16px;
+  }
+  .tp-hero-app {
+    padding: 120px 0 20px;
+  }
+  .tp-hero-download img{
+    width: auto;
+    height: 25px;
+  }
+  .hero-app-shape{
+    width: 300px;
+  }
+  .card-explore-sign{
+    gap: 20px;
+    padding: 20px;
+  }
+  .card-explore-sign img {
+    width: auto;
+    height: 200px;
+    margin-top: -70px;
+  }
+  .card-explore-sign h3{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  .tp-download h2{
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 1em;
+  }
+  .tp-download .download-btns img {
+    width: auto;
+    height: 30px;
+  }
+  .tp-download{
+    height: 200px;
+  }
+.download-man {
+    left: 0;
+    bottom: 0;
+    width: auto;
+    height: 300px;
+  }
+  .tp-faq-image-style2{
+    display: none;
+  }
+  .card-explore-sign p {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .counter-item h4{
+    line-height: 25px;
+    font-size: 28px;
+  }
+  .counter-item small{
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .tp-hero-app-thumb img{
+    width: auto;
+    height: 250px;
+    right: 15px;
+    top: -15px;
+  }
+  .app-screen-work .circle-shape{
+    width: 266px;
+    height: 266px;
+  }
+
+}
+
+
+
+@media screen and (min-width: 1400px) {
+    .container {
+      width: 1300px;
+      max-width: 1300px;
+    }
+  }
+  @media screen and (min-width: 1600px) {
+    .container {
+      width: 1500px;
+      max-width: 1500px;
+    }
+  }
+  @media screen and (min-width: 1900px) {
+    .container {
+      width: 1800px;
+      max-width: 1800px;
+    }
+    .hero-app-shape{
+      width: auto;
+      height: 700px;
+    }
+    .tp-hero-thumb-about img{
+      right: 56px;
+    top: -28px;
+    width: auto;
+    height: 700px;
+    }
+    .hero-plugin .pc{
+      left: 36%;
+      bottom: 12%;
+    }
+    .hello-img{
+      right: 43%;
+      width: 356.47px;
+      height: 278.9px;
+    }
+    .tp-hero-shape .small-shape{
+      left: 14%;
+      top: 47%;
+    }
+    .tp-hero-thumb .man-img{
+      width: 500px;
+      height: 800px;
+      right: 20px;
+    }
+    .tp-hero-shape #scroll-down{
+      right: 66%;
+      bottom: 10%;
+      width: 200px;
+      height: 200px;
+    }
+    /* .tp-hero-thumb .man-img{
+      right: 40px !important;
+    } */
+    .tp-hero-app {
+      padding: 350px 0 300px;
+  }
+  .tp-hero-app-thumb img {
+    top: -272px;
+    width: 551.29px;
+    height: 621.21px;
+    right: 184px;
+  }
+  .shape-hero-plugin {
+    height: 378px;
+    width: 900px;
+}
+  
+  }
